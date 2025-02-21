@@ -1,0 +1,57 @@
+.card_announcement {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 100%;
+}
+
+.card_announcement h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.card_announcement p {
+  margin: 10px 0;
+}
+
+.card_announcement .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card_announcement .details span {
+  font-size: 14px;
+  color: #666;
+}
+
+.card_announcement .details .button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card_announcement:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.announcement {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #810000; /* Orange background color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adding shadow effect */
+  }
+ 

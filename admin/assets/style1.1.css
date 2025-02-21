@@ -1,0 +1,52 @@
+.card_announcement {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 100%;
+}
+
+.card_announcement h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.card_announcement p {
+  margin: 10px 0;
+}
+
+.card_announcement .details {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card_announcement .details1 {
+    display:contents;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+.card_announcement .details span, .details1 span {
+  font-size: 14px;
+  color: #666;
+}
+
+.card_announcement .details .button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-announcement-btn{
+    padding: 5px;
+    width: 10%;
+    /* justify-content:space-between;   */
+}
